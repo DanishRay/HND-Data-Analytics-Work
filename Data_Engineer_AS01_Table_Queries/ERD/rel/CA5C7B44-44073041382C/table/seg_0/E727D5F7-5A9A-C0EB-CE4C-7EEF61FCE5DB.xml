@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E727D5F7-5A9A-C0EB-CE4C-7EEF61FCE5DB" name="locations">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>1C053528-A749-846D-23FB-BD4459B61552</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="FD900BE9-EAA0-9B31-B33E-ABB1D1653036">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>4D5D66B6-A384-040F-DAE7-F39E777C306B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_name" id="43E2BAD4-D184-F402-AC55-E7018A50B3D6">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>89CDEA12-8272-3CD6-9B80-BB0FBD039B51</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A9DA688A-4DA3-A2D4-5F61-415C33430589">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>B847D80C-1E4C-374E-01F1-286A636FD5E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="097EB889-E7EB-75C4-0D60-0C08E95C923F" name="locations_PK">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>23BBE029-475F-D8DA-5B49-666265F170AD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD900BE9-EAA0-9B31-B33E-ABB1D1653036"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

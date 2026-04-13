@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D43AB72B-1C03-C127-4DCE-9CFFEED2E1C5" name="order items">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>F1D8092C-D6C1-9532-343A-D161A0E956F0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="item id" id="41832BFD-E953-E2FF-FA1A-58B34169A6D9">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>B8FE678C-9C63-0C30-D24D-9DF7BF69EE44</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order id" id="893DEC7A-3DB3-0191-8ADD-45B04E4B24D8">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>4FDF6884-4BAC-D0EE-9DAE-0FD5E8BB9A71</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<referedAttribute>2CCDAC72-996D-8291-53A5-DA4DB2251CBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product id" id="2D9CCED7-0305-BD53-259D-F9FF4DB3AA87">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>A7077466-E642-544C-920A-397EB8C7F54C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<referedAttribute>941CA2EB-7D29-3EEE-8AC5-1359393F8D20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="37FC237A-7B7F-F48E-148B-74D122D53FB6">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>2CFFCB72-2731-D4A8-5969-B1FFF4D2B88B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unit price at sale" id="255A33E0-4369-9803-A7E0-6252FB8727A0">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>89CF8E87-F736-586C-C66F-DFDCB0EF96EB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orders customer id" id="8D950713-EB73-D8D5-F86D-AC5C2C00FF1F">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>635C1C18-29C6-A14D-4DC1-55523427BF51</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orders product id" id="6071B00C-B34B-07AD-87CD-E23A8B3CD60D">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>D618825A-8A70-0888-E280-6F3003DDF403</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="products category id" id="CF40DA82-111D-8877-8665-C3F508343BFA">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>E9A31140-59F0-2C13-A616-C3CDD6E0FF83</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0CA351D-A033-A48F-427D-8FDA41D8B517" name="order items PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>6A530956-0580-DC2D-755B-5882AACA3E03</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41832BFD-E953-E2FF-FA1A-58B34169A6D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

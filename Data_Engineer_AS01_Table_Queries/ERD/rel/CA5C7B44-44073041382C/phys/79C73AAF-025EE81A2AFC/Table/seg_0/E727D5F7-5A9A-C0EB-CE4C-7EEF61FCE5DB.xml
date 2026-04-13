@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="locations" directorySegmentName="seg_0" id="E727D5F7-5A9A-C0EB-CE4C-7EEF61FCE5DB">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="location_name" id="43E2BAD4-D184-F402-AC55-E7018A50B3D6">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city" id="A9DA688A-4DA3-A2D4-5F61-415C33430589">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="location_id" id="FD900BE9-EAA0-9B31-B33E-ABB1D1653036">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="locations_PK" id="097EB889-E7EB-75C4-0D60-0C08E95C923F">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

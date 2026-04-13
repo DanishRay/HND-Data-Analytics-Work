@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="suppliers" directorySegmentName="seg_0" id="8CA61CE8-416C-8ED0-2E5C-62A6B2E60E8F">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="company_name" id="6C20CF79-A253-DB30-D637-CF42E529B7D3">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="country" id="94D6DAAD-E3EF-6EA9-C57D-1AC20A579666">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="contact_name" id="9DCE8163-6115-4624-13B4-1A9531601DE2">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="supplier_id" id="9FF3F403-B334-3604-1224-D77F690B63FC">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone" id="B517F094-3092-C9E0-15F7-3E69D6B6EAAB">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="suppliers_PK" id="70E79A79-ABD8-C880-DDAC-417FE3E41352">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

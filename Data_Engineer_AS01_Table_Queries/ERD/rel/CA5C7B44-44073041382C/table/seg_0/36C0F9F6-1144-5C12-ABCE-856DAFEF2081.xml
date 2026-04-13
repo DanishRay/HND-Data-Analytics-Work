@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36C0F9F6-1144-5C12-ABCE-856DAFEF2081" name="customers">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>12C47200-C044-AD96-A2AE-E5A541F79CF8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="50C21288-40BD-3548-FF4A-65B9D696394D">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>C5A9CE69-CF3F-4F24-1FA6-AE6FBEB787EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="23BA2DD3-138B-DED1-8716-3490455A4014">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>01496C84-FB4C-21B7-E421-29BB1CC42707</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="5917A14B-225C-3BD6-8ABA-81ABF955C436">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>B05B3BB6-FFF2-B9F8-00D5-F8F0338BC36C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="19FE410D-E69E-33FC-B66B-56AEF18F35A9">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>C5656AE2-ADB2-6807-B389-A1EF6ADEDFFD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="3A0D733D-137B-9AE3-1D20-10D25449EDCB">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>8CF4FD87-5718-85C6-B9DF-3583D2C19260</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<defaultValue>CURRENT_TIMESTAMP</defaultValue>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CB0FC31-86C3-5711-560E-54B6DB4249BD" name="customers_PK">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>24E346F7-26D7-657B-756C-BEB18B95E758</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C21288-40BD-3548-FF4A-65B9D696394D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA932C1D-75C3-15F4-8550-AF999755D83D" name="customers_email_UN">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>174A315A-A8B8-F9D9-99DB-6655775E5519</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19FE410D-E69E-33FC-B66B-56AEF18F35A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

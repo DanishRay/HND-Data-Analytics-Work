@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30DFEBC2-1054-FE9C-40A5-7D90FF0E9B94" name="products">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>C2AAECD8-BFE5-DCE4-F752-45DDC6B8741F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="product id" id="941CA2EB-7D29-3EEE-8AC5-1359393F8D20">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>29CE4293-3A49-0D89-188B-83F0A87C979C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="36781A47-0D0B-CA52-EE5B-C024DCEE15D7">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>5C349AFF-4DBB-D09D-4541-C2D0CD10BED9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brand" id="56E0CFB6-7077-62FB-271D-8E2630968007">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>D54D7800-96ED-6EEA-C282-FE9C7CEE5CAC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="625839A9-8514-0007-84E0-2C0618D177A0">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>DC76E28B-58F4-8E9D-026E-E872A239F354</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock quantity" id="D72C4CCB-0279-9435-3D02-8FFB42B0112A">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>7FB2DD66-9419-F29C-E976-1BDA430E4C85</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category id" id="7774AABA-0347-B53B-2898-6522E2BD2BD2">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>C1886EA9-1848-03DD-7502-5FE7E0FF8CCE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<referedAttribute>A340DBD7-7688-0FCA-5732-7ACD7EE7294D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier id" id="5A802587-A769-B60E-6814-CF61F5A59AC6">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:54 UTC</createdTime>
+<generatorID>F0AA9A17-46E6-F592-8326-69F5B73958B7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<referedAttribute>9245B012-B449-712D-834B-92366A8E4438</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C562CCBA-5D6C-D46C-AB78-627BDBDC8795" name="products PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>34D3D635-618E-1FF7-98AF-A9AAAB0368BE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>941CA2EB-7D29-3EEE-8AC5-1359393F8D20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

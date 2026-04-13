@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1D8092C-D6C1-9532-343A-D161A0E956F0" name="order_items">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>0CA9CB22-E0EA-950A-1E12-3D983376AA98</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_id" id="B8FE678C-9C63-0C30-D24D-9DF7BF69EE44">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>0400B26E-AE18-BD3A-B3E3-EC349527251D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orders_order_id" id="7D2F1CD4-820C-B481-75B7-831DC4B08A64">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>8918C7FC-CD6F-BE9E-65C5-F6274D8BC79A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEE621DB-B312-F80B-A333-EC385002D12C" referredColumn="2D0D720D-EDE1-779B-C29D-82BF07411600"/>
+</associations>
+</Column>
+<Column name="products_product_id" id="E11FC4A7-E12E-72FF-D978-94D166FD5CB9">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>D85774DC-D6DA-FE8B-984F-4C9BBFAA40E7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F0874D9-A8DE-5058-424D-B103DD4469AF" referredColumn="29CE4293-3A49-0D89-188B-83F0A87C979C"/>
+</associations>
+</Column>
+<Column name="quantity" id="2CFFCB72-2731-D4A8-5969-B1FFF4D2B88B">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>81FFF7B8-5A28-13AE-0BF9-093E34D46A2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_price_at_sale" id="89CF8E87-F736-586C-C66F-DFDCB0EF96EB">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>F62E2591-B831-3C53-DA78-376FE0DC7FBA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orders_customer_id" id="635C1C18-29C6-A14D-4DC1-55523427BF51">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:40:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orders_product_id" id="D618825A-8A70-0888-E280-6F3003DDF403">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:40:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="products_category_id" id="E9A31140-59F0-2C13-A616-C3CDD6E0FF83">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:40:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A530956-0580-DC2D-755B-5882AACA3E03" name="order_items_PK">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>4AFE139C-2725-BD97-B06D-BDAED61475AF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8FE678C-9C63-0C30-D24D-9DF7BF69EE44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C795A44E-CA4F-A00B-83E3-D663BA5DCB42" name="order_items_orders_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D2F1CD4-820C-B481-75B7-831DC4B08A64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63E12190-9022-B26E-1C90-90DCEF6E3188" name="order_items_products_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E11FC4A7-E12E-72FF-D978-94D166FD5CB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

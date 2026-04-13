@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22B29BEA-6180-4CC0-04D7-9716885230AA" name="locations">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>E727D5F7-5A9A-C0EB-CE4C-7EEF61FCE5DB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="location id" id="69DA256D-3253-8FB9-8B67-135FDD63C922">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>FD900BE9-EAA0-9B31-B33E-ABB1D1653036</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location name" id="6A602AA8-5014-6513-709D-205429BD50B6">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>43E2BAD4-D184-F402-AC55-E7018A50B3D6</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="ACEFDD5F-5F28-DDF0-24FA-1DEA2FBC0D24">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>A9DA688A-4DA3-A2D4-5F61-415C33430589</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0F85834-1C61-F0D4-139A-7903C93076C2" name="locations PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>097EB889-E7EB-75C4-0D60-0C08E95C923F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69DA256D-3253-8FB9-8B67-135FDD63C922</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2AAECD8-BFE5-DCE4-F752-45DDC6B8741F" name="products">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>A7429210-DC33-B6BA-DB89-E36B4A5662C8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="product_id" id="29CE4293-3A49-0D89-188B-83F0A87C979C">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>1C11EE81-FC6C-7A4F-5E9D-3A10F85EE730</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5C349AFF-4DBB-D09D-4541-C2D0CD10BED9">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>F2D05225-32E1-03E1-5301-5BB9FF2E0145</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brand" id="D54D7800-96ED-6EEA-C282-FE9C7CEE5CAC">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>79A1AB53-6BE5-7091-4A59-EF7B31077148</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="DC76E28B-58F4-8E9D-026E-E872A239F354">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>1A8ECC32-4D80-112B-0DBF-119C1E3139F2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock_quantity" id="7FB2DD66-9419-F29C-E976-1BDA430E4C85">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>D52F13FB-8172-1C34-224B-5112C7513AB8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categories_category_id" id="A6DC0857-1843-FB5D-1A69-BD3A0B577163">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>818AC222-3071-12B5-26C9-B93DDBD97017</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57707586-FC9F-DD42-46F3-628BE416892F" referredColumn="284CFDED-EB98-646D-688B-51BBB2E05D91"/>
+</associations>
+</Column>
+<Column name="suppliers_supplier_id" id="29ECA755-BB63-6358-EE34-DEBC8A988549">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:47:31 UTC</createdTime>
+<generatorID>5A802587-A769-B60E-6814-CF61F5A59AC6</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="502C914A-5FF1-E3B4-596B-0F18B7E8C1E8" referredColumn="9FF3F403-B334-3604-1224-D77F690B63FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34D3D635-618E-1FF7-98AF-A9AAAB0368BE" name="products_PK">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>CB2DAC85-B4C2-B9B3-436A-73674524B0D0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29CE4293-3A49-0D89-188B-83F0A87C979C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D8EAC7-F589-BF31-B72D-94E089E60025" name="products_categories_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6DC0857-1843-FB5D-1A69-BD3A0B577163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F96BF97A-FF9D-E51E-539F-9B0673164A05" name="products_suppliers_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:47:31 UTC</createdTime>
+<generatorID>F0AA9A17-46E6-F592-8326-69F5B73958B7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29ECA755-BB63-6358-EE34-DEBC8A988549"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

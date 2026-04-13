@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDD3C8DF-CADE-929D-7B78-93976F794BB0" name="suppliers">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>8CA61CE8-416C-8ED0-2E5C-62A6B2E60E8F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="supplier id" id="9245B012-B449-712D-834B-92366A8E4438">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>9FF3F403-B334-3604-1224-D77F690B63FC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company name" id="18886FBA-8CF9-E003-5C37-DA864C53A37E">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>6C20CF79-A253-DB30-D637-CF42E529B7D3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact name" id="4AC533C8-271D-6E40-08D0-86D45469F856">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>9DCE8163-6115-4624-13B4-1A9531601DE2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="E909E633-7109-DF1F-2C32-A07EE34E0ADD">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>B517F094-3092-C9E0-15F7-3E69D6B6EAAB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="1F40DD0A-5993-F0F9-77D2-68B8254BBA3A">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>94D6DAAD-E3EF-6EA9-C57D-1AC20A579666</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEC05E09-A513-E9B3-20D4-3CA5C8EF69AF" name="suppliers PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:41:31 UTC</createdTime>
+<generatorID>70E79A79-ABD8-C880-DDAC-417FE3E41352</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CA5C7B44-FE1B-327D-23BD-44073041382C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9245B012-B449-712D-834B-92366A8E4438</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

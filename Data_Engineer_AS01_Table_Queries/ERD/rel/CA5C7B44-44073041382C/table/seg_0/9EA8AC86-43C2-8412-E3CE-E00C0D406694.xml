@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EA8AC86-43C2-8412-E3CE-E00C0D406694" name="orders">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>5CCDA762-AD24-EF60-C8C0-CFC2AC4CF58B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="2D0D720D-EDE1-779B-C29D-82BF07411600">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>319A0876-9499-A26D-1D4F-22AF2B66F474</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customers_customer_id" id="75D9E179-A425-A6A2-18F2-EAB4BEFE1DE2">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>D021F999-C0F3-5F76-52C1-FFE596860F80</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAB4C222-E9DF-4E0B-586F-0464DDBEC6E0" referredColumn="50C21288-40BD-3548-FF4A-65B9D696394D"/>
+</associations>
+</Column>
+<Column name="products_product_id" id="AA04506C-9890-B41F-D78C-69D70FCF6B4F">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>6DAD27DC-9C13-A3B0-3B08-C58CF3586806</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9BF20E7-9D0F-984D-20DD-AD2DBC3FD0E3" referredColumn="29CE4293-3A49-0D89-188B-83F0A87C979C"/>
+</associations>
+</Column>
+<Column name="order_date" id="A38E1313-2EC4-8B51-6446-51758A922A73">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>D5DE1253-793B-EF39-0495-A26146AC2677</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>CURRENT_DATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_amount" id="50A73A96-A35A-C6D5-9570-344F0C9F4D19">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>4BC76620-9D9C-8D24-913B-27D0F3F08553</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="products_category_id" id="BB8B6D0D-1E7A-CC6E-12AF-9DE62F7885F1">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:40:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="locations_location_id" id="977CDE4A-DBFE-17C9-D094-0D9D2AB8058F">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:47:31 UTC</createdTime>
+<generatorID>28B32CC6-99CC-C641-CDCD-10AE2B923FD6</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F095D5-64F5-C02F-7020-3AEA1E424F27" referredColumn="FD900BE9-EAA0-9B31-B33E-ABB1D1653036"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9E68621-9FB3-0FF0-CAAE-4816E7440610" name="orders_PK">
+<sourceDDLFile>Table_SQL.sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<importedID>B85F1350-5E80-EF4E-C5F3-1B6A923B39FE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D0D720D-EDE1-779B-C29D-82BF07411600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53D2F7B4-BDAF-86F7-826C-5EF1C735C5E3" name="orders_customers_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D9E179-A425-A6A2-18F2-EAB4BEFE1DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D9D6D9-A95C-D7BC-20B3-D219052E18CC" name="orders_products_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 11:12:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA04506C-9890-B41F-D78C-69D70FCF6B4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2D4F982-E0F9-F7D5-9944-97ED3A9930D4" name="orders_locations_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-04-04 12:47:31 UTC</createdTime>
+<generatorID>6E4245BE-CA7C-8428-A845-267DCCA43BCB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="977CDE4A-DBFE-17C9-D094-0D9D2AB8058F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

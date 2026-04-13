@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="36C0F9F6-1144-5C12-ABCE-856DAFEF2081" name="customers" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="8CA61CE8-416C-8ED0-2E5C-62A6B2E60E8F" name="suppliers" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="9EA8AC86-43C2-8412-E3CE-E00C0D406694" name="orders" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="C2AAECD8-BFE5-DCE4-F752-45DDC6B8741F" name="products" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="E727D5F7-5A9A-C0EB-CE4C-7EEF61FCE5DB" name="locations" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="F1D8092C-D6C1-9532-343A-D161A0E956F0" name="order_items" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+   <object objectType="Table" objectID="F9B6770A-B1C3-2DB9-512E-F34DF9E637C1" name="categories" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" propertyParentId="79C73AAF-025EE81A2AFC"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2>
