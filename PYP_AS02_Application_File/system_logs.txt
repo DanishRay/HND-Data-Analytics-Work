@@ -1,0 +1,222 @@
+[2025-10-19 15:28:35] User: SYSTEM | Action: Initialized new XML file: users.xml
+[2025-10-19 15:28:35] User: SYSTEM | Action: Initialized new XML file: venues.xml
+[2025-10-19 15:28:35] User: SYSTEM | Action: Initialized new XML file: bookings.xml
+[2025-10-19 15:28:35] User: SYSTEM | Action: Initialized new XML file: settings.xml
+[2025-10-19 15:28:35] User: SYSTEM | Action: New user created: @admin1234567 with role superadmin. Status: approved
+[2025-10-19 15:28:35] User: SYSTEM | Action: Super Admin account initialized and **SAVED**.
+[2025-10-19 15:29:11] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-19 15:44:11] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-19 19:02:32] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-19 19:03:11] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-19 19:03:29] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-19 19:04:29] User: SYSTEM | Action: New user created: staff1@mail with role staff. Status: approved
+[2025-10-19 19:04:41] User: @admin1234567 | Action: Deactivated user: staff1@mail.
+[2025-10-19 19:04:59] User: @admin1234567 | Action: Approved user: staff1@mail.
+[2025-10-19 19:05:24] User: @admin1234567 | Action: Logout successful.
+[2025-10-19 19:05:39] User: staff1@mail | Action: Login successful.
+[2025-10-19 19:07:46] User: staff1@mail | Action: Submitted new venue for approval: Mahligai (VEN-20251019190746-2810)
+[2025-10-19 19:08:17] User: staff1@mail | Action: Updated venue VEN-20251019190746-2810. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-19 19:08:39] User: staff1@mail | Action: Updated venue VEN-20251019190746-2810. Changes: status changed from 'active' to 'pending_approval'
+[2025-10-19 19:11:41] User: staff1@mail | Action: Logout successful.
+[2025-10-20 15:25:09] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-20 15:25:31] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-20 15:25:54] User: @admin1234567 | Action: Deactivated user: staff1@mail.
+[2025-10-20 15:26:02] User: @admin1234567 | Action: Approved user: staff1@mail.
+[2025-10-20 15:26:08] User: @admin1234567 | Action: Logout successful.
+[2025-10-20 15:26:50] User: SYSTEM | Action: New user created: asree@gmail.com with role customer. Status: pending
+[2025-10-20 15:27:02] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-20 15:27:08] User: @admin1234567 | Action: Approved user: asree@gmail.com.
+[2025-10-20 15:27:12] User: @admin1234567 | Action: Logout successful.
+[2025-10-20 15:27:23] User: asree@gmail.com | Action: Login successful.
+[2025-10-20 15:27:52] User: asree@gmail.com | Action: Logout successful.
+[2025-10-29 10:00:28] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 10:02:58] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 10:03:12] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:04:05] User: @admin1234567 | Action: Deactivated user: staff1@mail.
+[2025-10-29 10:04:08] User: @admin1234567 | Action: Deactivated user: asree@gmail.com.
+[2025-10-29 10:04:15] User: @admin1234567 | Action: Permanently deleted venue: VEN-20251019190746-2810.
+[2025-10-29 10:05:39] User: @admin1234567 | Action: Approved user: staff1@mail.
+[2025-10-29 10:05:41] User: @admin1234567 | Action: Deactivated user: staff1@mail.
+[2025-10-29 10:05:50] User: @admin1234567 | Action: Approved user: staff1@mail.
+[2025-10-29 10:05:52] User: @admin1234567 | Action: Approved user: asree@gmail.com.
+[2025-10-29 10:05:54] User: @admin1234567 | Action: Deactivated user: staff1@mail.
+[2025-10-29 10:05:57] User: @admin1234567 | Action: Deactivated user: asree@gmail.com.
+[2025-10-29 10:07:06] User: SYSTEM | Action: New user created: Saiful@gmail.com with role staff. Status: approved
+[2025-10-29 10:08:02] User: SYSTEM | Action: New user created: dan@gmail.com with role staff. Status: approved
+[2025-10-29 10:08:31] User: SYSTEM | Action: New user created: layla@gmail.com with role staff. Status: approved
+[2025-10-29 10:08:46] User: @admin1234567 | Action: Logout successful.
+[2025-10-29 10:09:30] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:10:50] User: Saiful@gmail.com | Action: Submitted new venue for approval: Ballroom (VEN-20251029101050-3356)
+[2025-10-29 10:11:01] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101050-3356. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-29 10:11:08] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101050-3356. Changes: status changed from 'active' to 'pending_approval'
+[2025-10-29 10:13:39] User: Saiful@gmail.com | Action: Submitted new venue for approval: Theatre (VEN-20251029101339-7709)
+[2025-10-29 10:14:41] User: Saiful@gmail.com | Action: Submitted new venue for approval: Hall (VEN-20251029101441-7956)
+[2025-10-29 10:15:36] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101050-3356. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-29 10:15:44] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101339-7709. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-29 10:15:48] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101441-7956. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-29 10:15:52] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 10:16:26] User: SYSTEM | Action: New user created: asri@gmail.com with role customer. Status: pending
+[2025-10-29 10:16:42] User: SYSTEM | Action: New user created: fikri@gmail.com with role customer. Status: pending
+[2025-10-29 10:16:56] User: SYSTEM | Action: New user created: nsih@gmail.com with role customer. Status: pending
+[2025-10-29 10:17:06] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:17:15] User: @admin1234567 | Action: Approved user: asri@gmail.com.
+[2025-10-29 10:17:18] User: @admin1234567 | Action: Approved user: fikri@gmail.com.
+[2025-10-29 10:17:20] User: @admin1234567 | Action: Approved user: nsih@gmail.com.
+[2025-10-29 10:17:24] User: @admin1234567 | Action: Logout successful.
+[2025-10-29 10:17:32] User: asri@gmail.com | Action: Login successful.
+[2025-10-29 10:19:09] User: asri@gmail.com | Action: New booking created for venue VEN-20251029101050-3356. ID: BOOK-20251029101909-7658. Status: PENDING
+[2025-10-29 10:19:32] User: asri@gmail.com | Action: New booking created for venue VEN-20251029101339-7709. ID: BOOK-20251029101932-9232. Status: PENDING
+[2025-10-29 10:19:47] User: asri@gmail.com | Action: New booking created for venue VEN-20251029101441-7956. ID: BOOK-20251029101947-8992. Status: PENDING
+[2025-10-29 10:20:49] User: asri@gmail.com | Action: Logout successful.
+[2025-10-29 10:24:06] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:24:23] User: @admin1234567 | Action: Logout successful.
+[2025-10-29 10:26:52] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:27:36] User: @admin1234567 | Action: Booking BOOK-20251029101909-7658 confirmed.
+[2025-10-29 10:28:13] User: @admin1234567 | Action: Booking BOOK-20251029101947-8992 status updated to CANCELLED_BY_ADMIN.
+[2025-10-29 10:29:24] User: @admin1234567 | Action: Deactivated user: nsih@gmail.com.
+[2025-10-29 10:29:53] User: SYSTEM | Action: New user created: bob@gmail..com with role staff. Status: approved
+[2025-10-29 10:30:20] User: @admin1234567 | Action: Permanently deleted venue: VEN-20251029101441-7956.
+[2025-10-29 10:30:35] User: @admin1234567 | Action: Approved user: staff1@mail.
+[2025-10-29 10:33:50] User: @admin1234567 | Action: Logout successful.
+[2025-10-29 10:34:05] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:34:33] User: Saiful@gmail.com | Action: Submitted new venue for approval: Outdoor (VEN-20251029103433-8057)
+[2025-10-29 10:35:18] User: Saiful@gmail.com | Action: Updated venue VEN-20251029103433-8057. Changes: price changed from '70' to '120'
+[2025-10-29 10:35:32] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101339-7709. Changes: status changed from 'active' to 'hidden'
+[2025-10-29 10:37:38] User: Saiful@gmail.com | Action: STAFF OVERRIDE: Cancelled booking BOOK-20251029101932-9232 for reason: Protocol Reason.
+[2025-10-29 10:38:15] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 10:38:28] User: dan@gmail.com | Action: Login successful.
+[2025-10-29 10:38:36] User: dan@gmail.com | Action: Logout successful.
+[2025-10-29 10:39:09] User: SYSTEM | Action: New user created: kimi@gmail.com with role customer. Status: pending
+[2025-10-29 10:39:23] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:39:34] User: @admin1234567 | Action: Approved user: kimi@gmail.com.
+[2025-10-29 10:39:37] User: @admin1234567 | Action: Logout successful.
+[2025-10-29 10:39:46] User: kimi@gmail.com | Action: Login successful.
+[2025-10-29 10:41:38] User: kimi@gmail.com | Action: New booking created for venue VEN-20251029101050-3356. ID: BOOK-20251029104138-2957. Status: PENDING
+[2025-10-29 10:43:13] User: kimi@gmail.com | Action: Cancelled booking: BOOK-20251029104138-2957. Reason: Personal.
+[2025-10-29 10:44:15] User: kimi@gmail.com | Action: Logout successful.
+[2025-10-29 10:45:16] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:45:43] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 10:45:53] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:50:55] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 10:51:25] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:54:59] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 10:55:09] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:55:26] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101339-7709. Changes: status changed from 'hidden' to 'pending_approval'
+[2025-10-29 10:55:56] User: Saiful@gmail.com | Action: Updated venue VEN-20251029101339-7709. Changes: duration changed from '5' to '6'
+[2025-10-29 10:57:49] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 10:57:57] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:58:09] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 10:58:16] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 10:58:26] User: @admin1234567 | Action: Updated venue VEN-20251029101339-7709. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-29 10:58:29] User: @admin1234567 | Action: Updated venue VEN-20251029103433-8057. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-29 10:58:33] User: @admin1234567 | Action: Logout successful.
+[2025-10-29 10:58:47] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 10:59:02] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 11:00:14] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:00:28] User: asri@gmail.com | Action: Login successful.
+[2025-10-29 11:11:46] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:11:56] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 11:11:59] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 11:12:07] User: asri@gmail.com | Action: Login successful.
+[2025-10-29 11:12:11] User: asri@gmail.com | Action: Logout successful.
+[2025-10-29 11:15:36] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:15:45] User: asri@gmail.com | Action: Login successful.
+[2025-10-29 11:15:48] User: asri@gmail.com | Action: Logout successful.
+[2025-10-29 11:23:06] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:23:21] User: asri@gmail.com | Action: Login successful.
+[2025-10-29 11:23:35] User: asri@gmail.com | Action: Logout successful.
+[2025-10-29 11:23:46] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-29 11:24:01] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-29 11:24:09] User: asri@gmail.com | Action: Login successful.
+[2025-10-29 11:24:51] User: asri@gmail.com | Action: Logout successful.
+[2025-10-29 11:24:59] User: @admin1234567 | Action: Super Admin PIN check failed.
+[2025-10-29 11:25:07] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 11:29:25] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:29:37] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 11:29:48] User: @admin1234567 | Action: Exported Booking Records to CSV.
+[2025-10-29 11:33:52] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:34:04] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 11:37:12] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-29 11:37:19] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-29 11:37:27] User: @admin1234567 | Action: Exported Booking Records to CSV.
+[2025-10-30 15:09:56] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-30 15:10:18] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 15:10:38] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 15:10:53] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-30 15:11:13] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-30 15:11:22] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 15:12:27] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 15:12:40] User: asri@gmail.com | Action: Login successful.
+[2025-10-30 15:13:21] User: asri@gmail.com | Action: New booking created for venue VEN-20251029101050-3356. ID: BOOK-20251030151321-4693. Status: PENDING
+[2025-10-30 15:13:35] User: asri@gmail.com | Action: New booking created for venue VEN-20251029101050-3356. ID: BOOK-20251030151335-3492. Status: PENDING
+[2025-10-30 15:13:40] User: asri@gmail.com | Action: Logout successful.
+[2025-10-30 15:13:51] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-30 15:14:26] User: Saiful@gmail.com | Action: Updated venue VEN-20251029103433-8057. Changes: status changed from 'active' to 'hidden'
+[2025-10-30 15:15:29] User: Saiful@gmail.com | Action: Submitted new venue for approval: Meeting Hall (VEN-20251030151529-8790)
+[2025-10-30 15:15:48] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-30 15:15:58] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 15:16:20] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 15:24:53] User: SYSTEM | Action: New user created: ADM1234567 with role superadmin. Status: approved
+[2025-10-30 15:24:53] User: SYSTEM | Action: Super Admin account initialized and **SAVED**.
+[2025-10-30 15:31:48] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-30 15:33:00] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 15:33:42] User: SYSTEM | Action: New user created: danish@gmail.com with role staff. Status: approved
+[2025-10-30 15:34:37] User: @admin1234567 | Action: Deactivated user: kimi@gmail.com.
+[2025-10-30 15:34:52] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 15:35:01] User: danish@gmail.com | Action: Login successful.
+[2025-10-30 15:35:35] User: danish@gmail.com | Action: Submitted new venue for approval: Ballroom hall (VEN-20251030153535-3697)
+[2025-10-30 15:36:15] User: danish@gmail.com | Action: Updated venue VEN-20251030153535-3697. Changes: capacity changed from '500' to '1000'
+[2025-10-30 15:36:53] User: danish@gmail.com | Action: Submitted new venue for approval: wayang (VEN-20251030153653-8210)
+[2025-10-30 15:38:23] User: danish@gmail.com | Action: Submitted new venue for approval: Hall (VEN-20251030153823-6140)
+[2025-10-30 15:46:14] User: danish@gmail.com | Action: Logout successful.
+[2025-10-30 15:46:43] User: SYSTEM | Action: New user created: asree2@gmail.com with role customer. Status: pending
+[2025-10-30 15:47:24] User: SYSTEM | Action: New user created: adam with role customer. Status: pending
+[2025-10-30 15:48:35] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 15:48:44] User: @admin1234567 | Action: Approved user: asree2@gmail.com.
+[2025-10-30 15:48:50] User: @admin1234567 | Action: Deactivated user: adam.
+[2025-10-30 15:48:58] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 15:49:09] User: asree2@gmail.com | Action: Login successful.
+[2025-10-30 15:49:53] User: asree2@gmail.com | Action: Logout successful.
+[2025-10-30 15:50:02] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 15:50:17] User: @admin1234567 | Action: Updated venue VEN-20251030151529-8790. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-30 15:50:29] User: @admin1234567 | Action: Updated venue VEN-20251030153535-3697. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-30 15:52:00] User: @admin1234567 | Action: Permanently deleted venue: VEN-20251030153823-6140.
+[2025-10-30 15:52:14] User: @admin1234567 | Action: Updated venue VEN-20251029103433-8057. Changes: status changed from 'hidden' to 'active'
+[2025-10-30 15:52:29] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 15:52:41] User: asree2@gmail.com | Action: Login successful.
+[2025-10-30 15:54:36] User: asree2@gmail.com | Action: New booking created for venue VEN-20251029101050-3356. ID: BOOK-20251030155436-5362. Status: PENDING
+[2025-10-30 15:54:51] User: asree2@gmail.com | Action: New booking created for venue VEN-20251029103433-8057. ID: BOOK-20251030155451-4084. Status: PENDING
+[2025-10-30 15:56:22] User: asree2@gmail.com | Action: New booking created for venue VEN-20251030151529-8790. ID: BOOK-20251030155622-6984. Status: PENDING
+[2025-10-30 15:56:39] User: asree2@gmail.com | Action: Cancelled booking: BOOK-20251030155622-6984. Reason: Personal Emergency.
+[2025-10-30 15:59:48] User: asree2@gmail.com | Action: New booking created for venue VEN-20251030153535-3697. ID: BOOK-20251030155948-4398. Status: PENDING
+[2025-10-30 16:01:38] User: asree2@gmail.com | Action: Logout successful.
+[2025-10-30 16:01:47] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 16:01:58] User: @admin1234567 | Action: Booking BOOK-20251030155436-5362 confirmed.
+[2025-10-30 16:02:04] User: @admin1234567 | Action: Booking BOOK-20251030155451-4084 confirmed.
+[2025-10-30 16:03:24] User: @admin1234567 | Action: Booking BOOK-20251030155436-5362 status updated to CANCELLED_BY_ADMIN.
+[2025-10-30 16:03:37] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 16:03:49] User: asree2@gmail.com | Action: Login successful.
+[2025-10-30 16:04:25] User: asree2@gmail.com | Action: Logout successful.
+[2025-10-30 16:04:33] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 16:05:00] User: @admin1234567 | Action: Exported Booking Records to CSV.
+[2025-10-30 16:05:21] User: @admin1234567 | Action: Exported User Activity Data to CSV.
+[2025-10-30 16:06:51] User: @admin1234567 | Action: Exported Venue Logs to CSV.
+[2025-10-30 16:07:57] User: @admin1234567 | Action: Logout successful.
+[2025-10-30 16:08:08] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-30 16:11:48] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-30 16:11:57] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 21:06:30] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-30 22:24:24] User: SYSTEM | Action: Super Admin account found. Initialization skipped.
+[2025-10-30 22:24:36] User: asri@gmail.com | Action: Login successful.
+[2025-10-30 22:26:24] User: asri@gmail.com | Action: Logout successful.
+[2025-10-30 22:26:33] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-30 22:27:05] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-30 22:27:13] User: asri@gmail.com | Action: Login successful.
+[2025-10-30 22:32:45] User: asri@gmail.com | Action: Logout successful.
+[2025-10-30 22:32:54] User: Saiful@gmail.com | Action: Login successful.
+[2025-10-30 22:34:18] User: Saiful@gmail.com | Action: STAFF OVERRIDE: Cancelled booking BOOK-20251030155948-4398 for reason: Breaking Rules / Regulations .
+[2025-10-30 22:39:41] User: Saiful@gmail.com | Action: Logout successful.
+[2025-10-30 22:39:48] User: @admin1234567 | Action: Super Admin login successful with PIN.
+[2025-10-30 22:40:27] User: @admin1234567 | Action: Approved user: adam.
+[2025-10-30 22:41:00] User: @admin1234567 | Action: Updated venue VEN-20251030153653-8210. Changes: status changed from 'pending_approval' to 'active'
+[2025-10-30 22:42:04] User: @admin1234567 | Action: Permanently deleted venue: VEN-20251030153535-3697.
