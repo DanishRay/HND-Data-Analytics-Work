@@ -95,7 +95,6 @@ with st.sidebar:
     st.markdown("---")
     navigation = st.radio("SELECT MODULE", ["Executive Dashboard", "Predictive Lab", "Performance Audit"], index=1)
     st.markdown("---")
-    st.caption("v2.4.0 | Build Status: Stable")
 
 # --- SECTION 1: EXECUTIVE DASHBOARD ---
 if navigation == "Executive Dashboard":
