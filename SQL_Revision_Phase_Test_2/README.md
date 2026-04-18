@@ -1,6 +1,6 @@
 # **SQL REVISION PHASE TEST 02**
 
-This file contains my revision work for phase test 02 Data Engineering Module, focusing on SQL techniques. The file involves analyzing a retail database scheme to solve specific business questions using various SQL functions
+This file contains my revision work for phase test 02 Data Engineering Module, focusing on SQL techniques. The file involves analyzing a retail database scheme that has been provided by a lecturer to solve specific business questions using various SQL functions
 
 
 
