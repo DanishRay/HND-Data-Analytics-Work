@@ -41,9 +41,9 @@ FROM transactions;
 -- Question 5
 -- Write a query to calculate the running total of the total_amount for all transactions over time
 SELECT transaction_id, transaction_date, total_amount,
-SUM(total_amount) OVER(ORDER BY transaction_date) AS running_total -- Using the window function to calculate the running total
+SUM(total_amount) OVER(ORDER BY transaction_date) AS running_total -- Using the window function to calculate the running total | Running total order by TRANSACTION_DATE
 FROM transactions
-ORDER BY transaction_date; -- Running total order by TRANSACTION_DATE
+ORDER BY transaction_date; 
 -- When include an ORDER BY inside the OVER clause without a PARTITION BY - every row, it sums the current
 -- TOTAL_AMOUNT plus all TOTAL_AMOUNT values from the rows that came before it chronologically
 
