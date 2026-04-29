@@ -1,0 +1,161 @@
+Athlete,Event,Country,Gold,Silver,Bronze
+Athlete_1,Cycling,Germany,1,0,0
+Athlete_2,Cycling,Germany,1,2,2
+Athlete_3,Gymnastics,Italy,2,1,1
+Athlete_4,Athletics,France,0,0,2
+Athlete_5,Cycling,Brazil,1,2,2
+Athlete_6,Cycling,South Korea,0,2,1
+Athlete_7,Athletics,Brazil,1,2,2
+Athlete_8,Cycling,Italy,2,1,1
+Athlete_9,Swimming,China,2,0,0
+Athlete_10,Swimming,Canada,1,2,1
+Athlete_11,Athletics,USA,2,1,0
+Athlete_12,Gymnastics,Italy,1,1,2
+Athlete_13,Gymnastics,South Korea,2,1,2
+Athlete_14,Athletics,Great Britain,0,2,0
+Athlete_15,Athletics,Great Britain,2,0,2
+Athlete_16,Swimming,Australia,0,2,1
+Athlete_17,Gymnastics,Italy,2,2,0
+Athlete_18,Cycling,Australia,0,0,2
+Athlete_19,Swimming,Italy,2,0,0
+Athlete_20,Athletics,Brazil,0,0,1
+Athlete_21,Gymnastics,USA,1,1,1
+Athlete_22,Cycling,Brazil,1,0,2
+Athlete_23,Cycling,Canada,0,2,1
+Athlete_24,Swimming,Germany,2,0,0
+Athlete_25,Gymnastics,Japan,0,2,1
+Athlete_26,Gymnastics,Italy,2,1,0
+Athlete_27,Athletics,Canada,1,2,0
+Athlete_28,Gymnastics,Germany,2,2,1
+Athlete_29,Gymnastics,South Korea,1,0,2
+Athlete_30,Swimming,France,2,0,1
+Athlete_31,Gymnastics,USA,2,2,0
+Athlete_32,Cycling,Australia,2,0,0
+Athlete_33,Swimming,Australia,0,1,1
+Athlete_34,Swimming,Brazil,0,1,2
+Athlete_35,Athletics,Great Britain,1,0,2
+Athlete_36,Gymnastics,Germany,1,1,0
+Athlete_37,Athletics,France,0,0,0
+Athlete_38,Cycling,Canada,1,2,2
+Athlete_39,Swimming,USA,0,2,1
+Athlete_40,Swimming,Germany,2,1,0
+Athlete_41,Swimming,France,1,0,0
+Athlete_42,Cycling,Japan,1,0,2
+Athlete_43,Cycling,Italy,0,1,1
+Athlete_44,Athletics,Australia,1,2,2
+Athlete_45,Athletics,Canada,1,1,1
+Athlete_46,Athletics,Australia,2,2,1
+Athlete_47,Gymnastics,Canada,1,0,1
+Athlete_48,Swimming,Brazil,2,2,0
+Athlete_49,Swimming,Great Britain,0,1,2
+Athlete_50,Athletics,Canada,1,0,2
+Athlete_51,Swimming,Australia,2,1,1
+Athlete_52,Athletics,Brazil,0,1,0
+Athlete_53,Gymnastics,Canada,1,2,0
+Athlete_54,Gymnastics,Japan,0,1,2
+Athlete_55,Cycling,Great Britain,1,2,0
+Athlete_56,Gymnastics,Canada,0,0,0
+Athlete_57,Athletics,Brazil,0,2,1
+Athlete_58,Gymnastics,South Korea,2,0,0
+Athlete_59,Cycling,Germany,0,2,1
+Athlete_60,Swimming,China,1,1,2
+Athlete_61,Athletics,France,1,2,0
+Athlete_62,Swimming,China,2,2,2
+Athlete_63,Cycling,South Korea,1,0,2
+Athlete_64,Cycling,China,1,1,0
+Athlete_65,Cycling,South Korea,1,2,0
+Athlete_66,Swimming,USA,0,1,2
+Athlete_67,Swimming,South Korea,0,2,0
+Athlete_68,Swimming,South Korea,1,2,1
+Athlete_69,Swimming,South Korea,2,1,1
+Athlete_70,Cycling,Japan,0,2,0
+Athlete_71,Cycling,Germany,2,1,2
+Athlete_72,Athletics,Italy,1,2,0
+Athlete_73,Athletics,Canada,1,0,0
+Athlete_74,Swimming,France,0,1,2
+Athlete_75,Gymnastics,Great Britain,1,2,2
+Athlete_76,Gymnastics,Germany,0,2,1
+Athlete_77,Cycling,Australia,1,0,2
+Athlete_78,Cycling,Italy,1,1,1
+Athlete_79,Cycling,USA,0,2,2
+Athlete_80,Athletics,USA,0,0,0
+Athlete_81,Athletics,South Korea,0,2,1
+Athlete_82,Cycling,Germany,1,1,1
+Athlete_83,Cycling,Brazil,1,2,1
+Athlete_84,Cycling,China,2,2,0
+Athlete_85,Gymnastics,Australia,0,2,0
+Athlete_86,Athletics,USA,1,2,0
+Athlete_87,Gymnastics,France,1,0,0
+Athlete_88,Gymnastics,USA,0,0,0
+Athlete_89,Cycling,Great Britain,2,1,1
+Athlete_90,Cycling,Canada,0,0,0
+Athlete_91,Swimming,USA,2,0,1
+Athlete_92,Swimming,Great Britain,1,1,0
+Athlete_93,Gymnastics,Germany,2,0,2
+Athlete_94,Athletics,Germany,1,0,1
+Athlete_95,Cycling,Italy,0,1,2
+Athlete_96,Cycling,USA,0,1,1
+Athlete_97,Gymnastics,France,0,1,2
+Athlete_98,Swimming,USA,2,2,0
+Athlete_99,Athletics,France,1,2,0
+Athlete_100,Swimming,Japan,0,1,0
+Athlete_101,Swimming,South Korea,0,1,1
+Athlete_102,Swimming,Italy,1,1,2
+Athlete_103,Swimming,Japan,0,2,0
+Athlete_104,Cycling,USA,1,2,2
+Athlete_105,Cycling,Italy,1,0,2
+Athlete_106,Swimming,Japan,1,0,0
+Athlete_107,Athletics,China,1,1,0
+Athlete_108,Gymnastics,USA,1,2,2
+Athlete_109,Athletics,Japan,2,2,0
+Athlete_110,Athletics,China,0,2,0
+Athlete_111,Athletics,China,2,1,0
+Athlete_112,Swimming,Germany,0,0,1
+Athlete_113,Cycling,USA,2,1,2
+Athlete_114,Athletics,China,1,0,2
+Athlete_115,Swimming,Germany,0,0,1
+Athlete_116,Athletics,Japan,0,1,2
+Athlete_117,Athletics,Great Britain,2,0,0
+Athlete_118,Swimming,USA,2,0,2
+Athlete_119,Cycling,Italy,0,2,0
+Athlete_120,Cycling,France,2,0,1
+Athlete_121,Gymnastics,France,2,1,0
+Athlete_122,Swimming,Japan,2,1,2
+Athlete_123,Gymnastics,Brazil,1,0,2
+Athlete_124,Gymnastics,Brazil,1,2,2
+Athlete_125,Gymnastics,Japan,2,2,1
+Athlete_126,Cycling,China,2,0,1
+Athlete_127,Swimming,USA,1,0,2
+Athlete_128,Gymnastics,France,1,1,0
+Athlete_129,Swimming,France,0,0,1
+Athlete_130,Swimming,China,0,2,2
+Athlete_131,Cycling,France,1,0,2
+Athlete_132,Gymnastics,Italy,2,1,1
+Athlete_133,Gymnastics,USA,2,1,1
+Athlete_134,Swimming,Canada,2,1,1
+Athlete_135,Athletics,France,2,1,0
+Athlete_136,Cycling,Japan,0,1,0
+Athlete_137,Cycling,Italy,1,0,2
+Athlete_138,Cycling,France,2,0,1
+Athlete_139,Cycling,South Korea,0,0,0
+Athlete_140,Gymnastics,Italy,2,0,1
+Athlete_141,Gymnastics,Germany,1,1,2
+Athlete_142,Athletics,Canada,0,2,0
+Athlete_143,Cycling,Australia,1,0,0
+Athlete_144,Cycling,Japan,1,2,0
+Athlete_145,Swimming,Japan,0,0,2
+Athlete_146,Gymnastics,USA,0,0,1
+Athlete_147,Cycling,Italy,0,2,0
+Athlete_148,Athletics,China,0,1,2
+Athlete_149,Athletics,Japan,0,0,1
+Athlete_150,Gymnastics,Italy,0,0,2
+Athlete_1,Cycling,Germany,1,0,0
+Athlete_2,Cycling,Germany,1,2,2
+Athlete_3,Gymnastics,Italy,2,1,1
+Athlete_4,Athletics,France,0,0,2
+Athlete_5,Cycling,Brazil,1,2,2
+Athlete_6,Cycling,South Korea,0,2,1
+Athlete_7,Athletics,Brazil,1,2,2
+Athlete_8,Cycling,Italy,2,1,1
+Athlete_9,Swimming,China,2,0,0
+Athlete_10,Swimming,Canada,1,2,1
